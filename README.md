@@ -22,6 +22,11 @@ curl -s '.../query_security_file?file_key=xxx' | hipa-secfile > config.xml
 hipa-secfile response.raw config.xml     # or from a file
 ```
 
+## Notes
+
+By modifying the response with this tool, you can intentionally disable
+`mhypbase`'s load flag.
+
 ## Disclaimer
 
 This project is provided for educational and research purposes only. It is
